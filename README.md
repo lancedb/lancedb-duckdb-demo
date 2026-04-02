@@ -8,7 +8,7 @@ The LanceDB `products` table stores product metadata, image paths, a CLIP multim
 
 Requires Python 3.12+.
 
-```
+```bash
 # Sync dependencies from pyproject.toml
 uv sync
 # Add dependencies as needed
@@ -21,7 +21,7 @@ Download the listings metadata and small images from the [ABO dataset page](http
 
 After extracting, the layout should look like:
 
-```
+```bash
 data/
   abo-listings/listings/metadata/   # listings_*.json.gz files
   abo-images-small/images/
